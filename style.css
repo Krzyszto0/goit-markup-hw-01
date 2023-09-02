@@ -1,0 +1,48 @@
+body {
+    width: 1600 px;
+    height: 2349 px;
+    background: #fff;
+}
+
+header {
+    width: 1600 px;
+    height: 80 px;
+}
+
+.Web {
+    color: #2196f3;
+    font-family: Raleway;
+    font-size: 26 px;
+    font-weight: 700;
+    letter-spacing: 0.78 px;
+    padding: 24px 93px 25px 215px;
+}
+
+.Studio {
+    color: black;
+    font-family: Raleway;
+    font-size: 26 px;
+    font-weight: 700;
+    letter-spacing: 0.78 px;
+}
+
+.menu_kontakt {
+    color: #2196f3;
+    font-family: Roboto;
+    font-size: 14 px;
+    font-weight: 500;
+    letter-spacing: 0.28 px;
+}
+
+.menu {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14 px;
+    font-weight: 500;
+    letter-spacing: 0.28 px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
