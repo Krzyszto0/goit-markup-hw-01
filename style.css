@@ -1,76 +1,135 @@
 body {
-  width: 1600 px;
-  height: 2349 px;
   background: #fff;
+  justify-content: center;
+  width: 1600px;
+  height: 2349px;
+  margin: auto;
 }
 
-header {
-  width: 1600 px;
-  height: 80 px;
+.menu {
+    width: 1600px;
+    height: 80px;
+    flex-shrink: 0;
 }
 
 .Web {
-  color: #2196f3;
-  font-family: Raleway;
-  font-size: 26 px;
-  font-weight: 700;
-  letter-spacing: 0.78 px;
-  padding: 24px 93px 25px 215px;
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin-left: 215px;
+    margin-right: 93px;
 }
 
 .Studio {
-  color: black;
-  font-family: Raleway;
-  font-size: 26 px;
-  font-weight: 700;
-  letter-spacing: 0.78 px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 .agencja {
-  color: #2196f3;
-  font-family: Roboto;
-  font-size: 14 px;
-  font-weight: 500;
-  letter-spacing: 0.28 px;
-  padding: 32px 46px 32px 0px;
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin: 32px 46px 32px 0px;
+    text-align: center;
 }
 
 .email {
-  color: #2196f3;
-  font-family: Roboto;
-  font-size: 14 px;
-  font-weight: 500;
-  letter-spacing: 0.28 px;
-  padding: 32px 50px 32px 0px;
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin: 32px 50px 32px 0px;
 }
 
 .portfolio {
-  color: #212121;
-  font-family: Roboto;
-  font-size: 14 px;
-  font-weight: 500;
-  letter-spacing: 0.28 px;
-  padding: 32px 64px 32px 0px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin: 32px 64px 32px 0px;
 }
 
 .kontakt {
-  color: #212121;
-  font-family: Roboto;
-  font-size: 14 px;
-  font-weight: 500;
-  letter-spacing: 0.28 px;
-  padding: 32px 353px 32px 0px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin: 32px 353px 32px 0px;
 }
 
 .telefon {
-  color: #757575;
-  font-family: Roboto;
-  font-size: 14 px;
-  font-weight: 500;
-  letter-spacing: 0.28 px;
-  padding: 32px 227px 32px 0px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  margin: 32px 227px 32px 0px;
 }
 
 a {
   text-decoration-line: none;
+}
+
+.baner {
+    width: 1600px;
+    height: 600px;
+    background: #2f303a;
+    margin-top: 0px;
+}
+
+h1 {
+    color: #fff;
+    width: 696px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 200px 452px 0px 452px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    margin: 30px 700px 0px 700px;
 }
