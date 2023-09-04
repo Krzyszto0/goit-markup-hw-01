@@ -133,3 +133,81 @@ button {
     letter-spacing: 0.96px;
     margin: 30px 700px 0px 700px;
 }
+
+.about {
+    width: 1170px;
+    height: 101px;
+    flex-shrink: 0;
+    margin-left: 215px;
+}
+
+.strength {
+    width: 270px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.description {
+    width: 270px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.block_about {
+    float: left;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    padding-right: 30px;
+}
+
+.block_about_4 {
+    float: left;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.our_work {
+    width: 1170px;
+    height: 386px;
+    flex-shrink: 0;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 94px;
+    clear: both;
+}
+
+.What_we_do {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.work_img {
+    padding-right: 26px;
+}
+
+.our_team {
+    width: 1600px;
+    height: 648px;
+    flex-shrink: 0;
+    background: #F5F4FA; 
+}
