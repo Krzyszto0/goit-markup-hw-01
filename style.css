@@ -4,12 +4,13 @@ body {
   width: 1600px;
   height: 2349px;
   margin: auto;
+  box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.20), 0px 10px 10px 0px rgba(0, 0, 0, 0.14), 0px 10px 30px 0px rgba(0, 0, 0, 0.12);
 }
 
 .menu {
     width: 1600px;
     height: 80px;
-    flex-shrink: 0;
+    display: flex;
 }
 
 .Web {
@@ -22,6 +23,7 @@ body {
     letter-spacing: 0.78px;
     margin-left: 215px;
     margin-right: 93px;
+    margin-top: 24px;
 }
 
 .Studio {
@@ -43,7 +45,6 @@ body {
     line-height: normal;
     letter-spacing: 0.28px;
     margin: 32px 46px 32px 0px;
-    text-align: center;
 }
 
 .email {
@@ -247,4 +248,85 @@ button {
     margin-right: 30px;
     margin-bottom: 94px;
     margin-left: 215px;
+}
+
+.Teammate {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 10px;
+}
+
+.Team_title {
+    color: #757575;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 1600px;
+    height: 252px;
+    background: #2f303a;
+    clear: both;
+}
+
+.Web_footer {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.Studio_footer {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.adres {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin: 0px 0px 9px 215px;
+}
+
+.kontakt_footer {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.Logo_footer {
+    padding: 60px 1240px 20px 215px;
+    margin: 0px auto;
+}
+
+.email_footer {
+    margin: 9px 0px 9px 215px
 }
